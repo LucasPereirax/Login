@@ -7,7 +7,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Login</title>
   </head>
   <body>
@@ -15,23 +15,26 @@
       <form>
         <h1>Login</h1>
         <div class="input-box">
-          <input placeholder="Usuário" type="email">
+          <input placeholder="Usuário" type="email" />
           <i class="bx bx-user"></i>
         </div>
         <div class="input-box">
-          <input placeholder="Senha" type="password">
+          <input placeholder="Senha" type="password" />
           <i class="bx bx-lock"></i>
+        </div>
           <div class="remember-forgot">
             <label>
-                <input type="checkbox">
-                Lembrar minha senha
-              </label>
-              <a href="#">Esqueci minha senha</a>
-            </div>
+              <input type="checkbox" />
+              Lembrar senha
+            </label>
+            <a href="#">Esqueci senha</a>
+          </div>
         </div>
-        <button type = "submit">Login</button>
+        <button class="login" type="submit">Login</button>
 
-        <div class="register-link"><p>Não tem uma conta? <a href="#">Cadastre-se</a></p></div>
+        <div class="register-link">
+          <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </div>
       </form>
     </main>
   </body>
